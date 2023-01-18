@@ -46,9 +46,11 @@ toast('Title', 'Message', toastStyles.info, 10000);
 
 ```
 
-## :wave: Contact
+## :wave: Contact/Contribute
 
 Open an issue and I'll answer as soon as I'm available.
+
+Feel free to contribute :D
 
 ## :page_with_curl: License
 
