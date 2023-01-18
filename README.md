@@ -52,7 +52,7 @@ Open an issue and I'll answer as soon as I'm available.
 
 Feel free to contribute :D
 
-## :page_with_curl: License & Credits
+## :page_with_curl: License
 
 This project is licensed under the [MIT license.](./LICENSE)
 
@@ -64,7 +64,9 @@ This project is licensed under the [MIT license.](./LICENSE)
 > 
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-**Credits to tailwindcss / Tailwind Labs, Inc.**
+## 💙 Thanks
+
+**Thanks to tailwindcss / Tailwind Labs, Inc.**
 
 https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE 
 
@@ -72,7 +74,7 @@ https://github.com/tailwindlabs/tailwindcs
 
 https://tailwindcss.com/
 
-**Credits to system uicons**
+**Thanks to system uicons**
 
 https://github.com/CoreyGinnivan/system-uicons/blob/main/LICENSE
 
