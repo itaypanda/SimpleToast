@@ -66,12 +66,16 @@ This project is licensed under the [MIT license.](./LICENSE)
 
 **Credits to tailwindcss / Tailwind Labs, Inc.**
 
-https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE
+https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE 
+
 https://github.com/tailwindlabs/tailwindcs
+
 https://tailwindcss.com/
 
 **Credits to system uicons**
 
 https://github.com/CoreyGinnivan/system-uicons/blob/main/LICENSE
+
 https://github.com/CoreyGinnivan/system-uicons
+
 https://www.systemuicons.com/
