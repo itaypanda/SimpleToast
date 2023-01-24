@@ -2,7 +2,7 @@
 
 Simple toast notification library with tailwind css.
 
-**This means TailwindCSS is required! for this to work out of the box**
+**This means TailwindCSS is required! for this to work "out of the box"**
 
 Please note this may bug a bit on mobile
 
