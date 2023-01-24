@@ -1,5 +1,3 @@
-![demostration](abc.jpg)
-
 # SimpleToast
 
 Simple toast notification library with tailwind css.
@@ -49,6 +47,8 @@ toast('Title', 'Message', toastStyles.info, 10000);
 
 
 ```
+
+![demostration](abc.jpg)
 
 ## :wave: Contact/Contribute
 
