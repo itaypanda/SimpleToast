@@ -1,31 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SimpleToast</title>
-    <script src="./SimpleToast.min.js"></script>
-    <script src="https://cdn.tailwindcss.com/3.2.4"></script>
-</head>
-<body>
-    <div class="flex justify-between items-center h-screen mx-16">
-        <h1 class="text-center text-4xl font-semibold">SimpleToast:</h1>
-        <button class="bg-sky-100 hover:bg-sky-200 transition duration-200 p-4 rounded-md" onclick="toast('Title123', 'Message312', toastStyles.info)">
-            Show Info
-        </button>
-        <button class="bg-orange-100 hover:bg-orange-200 transition duration-200 p-4 rounded-md" onclick="toast('Title123', 'Message312', toastStyles.warn)">
-            Show Warn
-        </button>
-        <button class="bg-rose-100 hover:bg-rose-200 transition duration-200 p-4 rounded-md" onclick="toast('Title123', 'Message312', toastStyles.error)">
-            Show Error
-        </button>
-        <button class="bg-emerald-100 hover:bg-emerald-200 transition duration-200 p-4 rounded-md" onclick="toast('Title123', 'Message312', toastStyles.success)">
-            Show Success
-        </button>
-    </div>
-    <script>
-        toastInit();
-    </script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SimpleToast</title>
+		<script src="./SimpleToast.js"></script>
+		<script src="https://cdn.tailwindcss.com/3.2.4"></script>
+	</head>
+	<body>
+		<div class="flex justify-center items-center h-screen mx-16">
+			<div>
+				<h1 class="text-center text-4xl font-semibold my-4">SimpleToast:</h1>
+				<div class="sm:flex gap-14">
+					<button
+						class="bg-sky-100 hover:bg-sky-200 transition duration-200 p-4 rounded-md"
+						onclick="toast('Title123', 'Message312', toastStyles.info)"
+					>
+						Show Info
+					</button>
+					<button
+						class="bg-orange-100 hover:bg-orange-200 transition duration-200 p-4 rounded-md"
+						onclick="toast('Title123', 'Message312', toastStyles.warn)"
+					>
+						Show Warn
+					</button>
+					<button
+						class="bg-rose-100 hover:bg-rose-200 transition duration-200 p-4 rounded-md"
+						onclick="toast('Title123', 'Message312', toastStyles.error)"
+					>
+						Show Error
+					</button>
+					<button
+						class="bg-emerald-100 hover:bg-emerald-200 transition duration-200 p-4 rounded-md"
+						onclick="toast('Title123', 'Message312', toastStyles.success)"
+					>
+						Show Success
+					</button>
+				</div>
+			</div>
+		</div>
+		<script>
+			toastInit();
+		</script>
+		<div
+			style="opacity: 0"
+			class="flex bg-emerald-100 duration-200 justify-between m-8 me-4 p-4 rounded-lg transition sm:w-96 w-auto"
+		>
+			<div class="flex items-center justify-center">
+				<svg
+					height="21"
+					viewBox="0 0 21 21"
+					width="21"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<g
+						fill="none"
+						fill-rule="evenodd"
+						stroke="currentColor"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						transform="translate(2 2)"
+					>
+						<circle cx="8.5" cy="8.5" r="8" />
+						<path d="m5.5 9.5 2 2 5-5" />
+					</g>
+				</svg>
+			</div>
+			<div class="ml-4 mr-2 w-full">
+				<h1 class="font-semibold text-xl">Title</h1>
+				<p>Description</p>
+			</div>
+			<div class="flex items-center justify-center cursor-pointer">
+				<svg
+					height="21"
+					viewBox="0 0 21 21"
+					width="21"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<g
+						fill="none"
+						fill-rule="evenodd"
+						stroke="currentColor"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						transform="translate(5 5)"
+					>
+						<path d="m10.5 10.5-10-10z" />
+						<path d="m10.5.5-10 10" />
+					</g>
+				</svg>
+			</div>
+		</div>
+	</body>
 </html>
