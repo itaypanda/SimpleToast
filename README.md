@@ -48,8 +48,15 @@ toast('Title', 'Message', toastStyles.success);
 
 toast('Title', 'Message', toastStyles.info, 10);
 
+```
 
+## :wrench: Adding custom styles
 
+```javascript
+const myCustomStyle = {
+  color: "blue", // Tailwind CSS color. Ex: [#ffffff].
+  icon: "<svg></svg>" // Doesn't have to be an svg.
+};
 ```
 
 ![demonstration](abc.jpg)
