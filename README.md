@@ -12,7 +12,7 @@ Simply include the [SimpleToast.js](./SimpleToast.js) or [SimpleToast.min.js](./
 
 ## :memo: Change Log
 
-- 25th August rewrote some of the code and made it easier to customize, Also code is now smaller. - [#1](https://github.com/itaypanda/SimpleToast/issues/1)
+- 25th August rewrote some of the code and made it easier to customize, also code is now smaller. - [#1](https://github.com/itaypanda/SimpleToast/issues/1)
 
 ## :gear: Config
 
