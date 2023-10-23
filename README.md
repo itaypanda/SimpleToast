@@ -4,8 +4,6 @@ Simple toast notification library with Tailwind CSS.
 
 **This means TailwindCSS is required! for this to work "out of the box"**
 
-Please note this may bug a bit on mobile
-
 ## :arrow_heading_down: Installation
 
 Simply include the [SimpleToast.js](./SimpleToast.js) or [SimpleToast.min.js](./SimpleToast.min.js).
