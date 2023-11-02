@@ -4,15 +4,20 @@ Simple toast notification library with Tailwind CSS.
 
 **This means TailwindCSS is required! for this to work "out of the box"**
 
-Please note this may bug a bit on mobile
-
 ## :arrow_heading_down: Installation
 
-Simply include the [SimpleToast.js](./SimpleToast.js) or [SimpleToast.min.js](./SimpleToast.min.js).
+Simply include the [SimpleToast.js](./SimpleToast.js) or [SimpleToast.min.js](./SimpleToast.min.js) file.
+
+Or, you can also link it via JsDelivr:
+```html
+<script src="https://cdn.jsdelivr.net/gh/itaypanda/simpletoast@master/SimpleToast.min.js"></script>
+```
 
 ## :memo: Change Log
 
-- 25th August rewrote some of the code and made it easier to customize, Also code is now smaller. - [#1](https://github.com/itaypanda/SimpleToast/issues/1)
+- **August 25th** -  rewrote some of the code and made it easier to customize, also code is now smaller. - [#1](https://github.com/itaypanda/SimpleToast/issues/1)
+
+- **November 2nd** - added a JsDelivr link, updated a usage instruction renamed some files to demo, updated and made README a little nicer.
 
 ## :gear: Config
 
@@ -22,8 +27,8 @@ No configuration is required unless you count the init and the toast itself.
 
 ```javascript
 
-// Init the library, can be skipped if you add:
-// <div class="absolute bottom-0 right-0"></div>
+// Init the library onto the page, can be skipped if you add:
+// <div id="alertBox" class="fixed bottom-0 right-0 z-[9999]"></div>
 // Anywhere in the page, recommended at the top or bottom
 toastInit();
 
@@ -44,7 +49,7 @@ toast('Title', 'Message', toastStyles.error);
 toast('Title', 'Message', toastStyles.success);
 
 
-// Example toast with set fade time instead of the default (7.5 seconds):
+// Example toast with set fade time 10 seconds instead of the default (7.5 seconds):
 
 toast('Title', 'Message', toastStyles.info, 10);
 
@@ -53,13 +58,26 @@ toast('Title', 'Message', toastStyles.info, 10);
 ## :wrench: Adding custom styles
 
 ```javascript
-const myCustomStyle = {
-  color: "blue", // Tailwind CSS color. Ex: [#ffffff].
-  icon: "<svg></svg>" // Doesn't have to be an svg.
-};
+// Defining the style
+const toastStyles = {
+  // ...
+  customStyle: {
+    color: "blue", // Tailwind CSS color. Ex: [#ffffff].
+    icon: "<svg></svg>" // Doesn't have to be an svg.
+  },
+}
+
+// Using it
+toast('Title', 'Message', toastStyles.customStyle);
 ```
 
-![demonstration](abc.jpg)
+Recommended svg/img size: 21x21
+
+## :computer: Demo
+
+You can open the [demo.html](./demo.html) file to view a demo page of the library:
+
+![demonstration](demo.jpg)
 
 ## :wave: Contact/Contribute
 
@@ -81,7 +99,7 @@ This project is licensed under the [MIT license.](./LICENSE)
 >
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## 💙 Thanks
+## :blue_heart: Thanks
 
 **Thanks to Tailwind CSS / Tailwind Labs, Inc.**
 

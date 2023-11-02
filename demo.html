@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SimpleToast</title>
+		<script src="https://cdn.jsdelivr.net/gh/itaypanda/simpletoast@master/SimpleToast.min.js"></script>
+		<script src="https://cdn.tailwindcss.com/3.2.4"></script>
+	</head>
+	<body>
+		<div class="flex justify-center items-center h-screen mx-16">
+			<div>
+				<h1 class="text-center text-4xl font-semibold my-4">SimpleToast:</h1>
+				<div class="sm:flex gap-14">
+					<button
+						class="bg-sky-100 hover:bg-sky-200 transition duration-200 p-4 rounded-md"
+						onclick="toast('Title123', 'Message312', toastStyles.info)"
+					>
+						Show Info
+					</button>
+					<button
+						class="bg-orange-100 hover:bg-orange-200 transition duration-200 p-4 rounded-md"
+						onclick="toast('Title123', 'Message312', toastStyles.warn)"
+					>
+						Show Warn
+					</button>
+					<button
+						class="bg-rose-100 hover:bg-rose-200 transition duration-200 p-4 rounded-md"
+						onclick="toast('Title123', 'Message312', toastStyles.error)"
+					>
+						Show Error
+					</button>
+					<button
+						class="bg-emerald-100 hover:bg-emerald-200 transition duration-200 p-4 rounded-md"
+						onclick="toast('Title123', 'Message312', toastStyles.success)"
+					>
+						Show Success
+					</button>
+				</div>
+			</div>
+		</div>
+		<script>
+			toastInit();
+		</script>
+	</body>
+</html>
