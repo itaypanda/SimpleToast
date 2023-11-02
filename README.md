@@ -15,9 +15,13 @@ Or, you can also link it via JsDelivr:
 
 ## :memo: Change Log
 
+<<<<<<< HEAD
 - **August 25th** -  rewrote some of the code and made it easier to customize, also code is now smaller. - [#1](https://github.com/itaypanda/SimpleToast/issues/1)
 
 - **November 2nd** - added a JsDelivr link, updated a usage instruction renamed some files to demo, updated and made README a little nicer.
+=======
+- 25th August rewrote some of the code and made it easier to customize, also code is now smaller. - [#1](https://github.com/itaypanda/SimpleToast/issues/1)
+>>>>>>> e59ed157ecd9e832cdb683119a7c86c2b8512f51
 
 ## :gear: Config
 
