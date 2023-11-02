@@ -1,6 +1,7 @@
 # :sparkles: SimpleToast
 
-![GitHub](https://img.shields.io/github/license/itaypanda/simpletoast)
+![LicenseMIT](https://img.shields.io/github/license/itaypanda/simpletoast?style=for-the-badge)
+![CodeSize](https://img.shields.io/badge/code_size_gzipped_+_min-1%2e6KB-blue?style=for-the-badge)
 
 Simple toast notification library with Tailwind CSS.
 
