@@ -1,5 +1,7 @@
 # :sparkles: SimpleToast
 
+![GitHub](https://img.shields.io/github/license/itaypanda/simpletoast)
+
 Simple toast notification library with Tailwind CSS.
 
 **This means TailwindCSS is required! for this to work "out of the box"**
@@ -75,6 +77,8 @@ Recommended svg/img size: 21x21
 
 ## :computer: Demo
 
+**LIVE DEMO COMING SOON**
+
 You can open the [demo.html](./demo.html) file to view a demo page of the library:
 
 ![demonstration](demo.jpg)
@@ -86,6 +90,10 @@ Open an issue and I'll answer as soon as I'm available.
 Feel free to contribute :D
 
 Feel free to open an issue if you find any, or if you want to add a feature!
+
+## :star: Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=itaypanda/simpletoast&type=Date)](https://star-history.com/#itaypanda/simpletoast&Date)
 
 ## :page_with_curl: License
 
