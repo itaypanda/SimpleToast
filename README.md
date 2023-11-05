@@ -21,6 +21,7 @@ Or, you can also link it via JsDelivr:
 - **August 25th** -  rewrote some of the code and made it easier to customize, also code is now smaller. - [#1](https://github.com/itaypanda/SimpleToast/issues/1)
 
 - **November 2nd** - added a JsDelivr link, updated a usage instruction renamed some files to demo, updated and made README a little nicer.
+- **November 5th** - added live demo github pages site.
 
 ## :gear: Config
 
@@ -78,7 +79,7 @@ Recommended svg/img size: 21x21
 
 ## :computer: Demo
 
-**LIVE DEMO COMING SOON**
+**LIVE DEMO: [itaypanda.github.io](https://itaypanda.github.io/)**
 
 You can open the [demo.html](./demo.html) file to view a demo page of the library:
 
